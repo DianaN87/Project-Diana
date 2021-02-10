@@ -18,10 +18,18 @@
 # half_perimeter=(a+b+c)/2
 # print(half_perimeter)
 # triangle_area = (half_perimeter*(half_perimeter-a)*(half_perimeter-b)*(half_perimeter-c))**0.5
+#
+# a, b, c=input("Please enter 3 sides: ").split (" ")
+#
+# half_perimeter= (float(a)+float(b)+float (c))/2
+# print(half_perimeter)
+# triangle_area = (half_perimeter*(half_perimeter-float(a))*(half_perimeter-float(b))*(half_perimeter-float(c)))**0.5
+# print(triangle_area)
 
-a, b, c=input("Please enter 3 sides: ").split (" ")
+# square_area
+d= float(input("Please enter diagonal "))
+a=(d/(2**0.5))
+print("a side is"+ " " + str(a))
+square_area = (a**2)
+print("Square area is"+ " " + str(square_area))
 
-half_perimeter= (float(a)+float(b)+float (c))/2
-print(half_perimeter)
-triangle_area = (half_perimeter*(half_perimeter-float(a))*(half_perimeter-float(b))*(half_perimeter-float(c)))**0.5
-print(triangle_area)

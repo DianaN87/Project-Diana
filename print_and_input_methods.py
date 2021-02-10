@@ -9,7 +9,8 @@ print(str(100) + ' ' + str(0.2) + '-' + 'Hello world- ' + str(True) + '-' + a)
 print(type(input('Please enter some text: ')))
 #input () value can be stored in variable
 user_input= (' Please enter some text: ')
-print(len'Hello world'))
+print(len('Hello world'))
+
 
 
 
